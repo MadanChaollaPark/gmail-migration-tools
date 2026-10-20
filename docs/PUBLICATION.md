@@ -6,7 +6,7 @@ This is a fresh public repository, with no imported private Git history. Source 
 
 ## Changes for publication
 
-- Relocated the v2 regression suite to load the repository's engine.
+- Relocated the v2 regression suite to load the repository's engine; isolated the mocked Keychain test from macOS executable availability so it also runs on Linux.
 - Replaced client-derived header examples in tests with fictional equivalents.
 - Changed the default Keychain service to a separate example namespace.
 - Made the pilot's source and destination come from its frozen manifest, preserving explicit confirmation and account verification.

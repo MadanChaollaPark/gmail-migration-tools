@@ -1731,7 +1731,11 @@ class MigrationV2Tests(unittest.TestCase):
 
     def test_keychain_store_uses_stdin_not_process_arguments(self):
         (self.source / "0.eml").write_bytes(eml_bytes(0))
-        profile = self.write_profile(token_type="keychain")
+        # The subprocess is mocked below; permit profile validation on Linux too.
+        security_stub = self.source / "security"
+        security_stub.write_text("test stub", encoding="utf-8")
+        with mock.patch.object(migration, "KEYCHAIN_SECURITY", security_stub):
+            profile = self.write_profile(token_type="keychain")
         secret = "refresh-token-not-in-argv"
         token_json = json.dumps(
             {
