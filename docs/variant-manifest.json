@@ -1,0 +1,182 @@
+[
+  {
+    "path": "gmail_eml_migration_v2.py",
+    "role": "portable source",
+    "sourceLines": 4010,
+    "sha256": "a96c36b2622e551d5c4f6caaaafc7c07e5493344f04cbd4f691c46014f963a08"
+  },
+  {
+    "path": "requirements.txt",
+    "role": "portable source",
+    "sourceLines": 4,
+    "sha256": "afb82ef3b2947796575fff0b67215325fba509e280cfc5e9366179d025163dd5"
+  },
+  {
+    "path": "tests/test_engine.py",
+    "role": "portable source",
+    "sourceLines": 2126,
+    "sha256": "7a5d1ab33bd40e42561157ec8cc48203d5f5cc59e007e2b5186c840254ab48d6"
+  },
+  {
+    "path": "pilot/gmail_eml_pilot.py",
+    "role": "portable source",
+    "sourceLines": 546,
+    "sha256": "a9ded9c015040d66903bb762566e1c759e9a8b0c60899c722382ad2470b20181"
+  },
+  {
+    "path": "archive/batch_v1/gmail_eml_full_import.py",
+    "role": "historical reference",
+    "sourceLines": 4676,
+    "sha256": "d57a7d813f441c11c2b22e15f8ea1b0f3ae59777200104416ebaa0e38509b87a"
+  },
+  {
+    "path": "archive/batch_v1/legacy_common.py",
+    "role": "historical reference",
+    "sourceLines": 178,
+    "sha256": "3fb5f02442732fea8d0c894dd587ecd53b1bc17fc293072d2f2a4448eee3c8fa"
+  },
+  {
+    "path": "archive/batch_v1/prepare_legacy_full_import.py",
+    "role": "historical reference",
+    "sourceLines": 275,
+    "sha256": "9be8834921907ac48f3f322b9d59d9ca53e339c49b3ad782076c93e34d3bd15b"
+  },
+  {
+    "path": "archive/batch_v1/gmail_reconcile_source_1632_readonly.py",
+    "role": "historical reference",
+    "sourceLines": 388,
+    "sha256": "1ba486db4a38fb27cc08b26b0261d88bf4d14efc9c9a1e10538dab68f5a83c3a"
+  },
+  {
+    "path": "archive/raw_header/finish_when_done.py",
+    "role": "historical reference",
+    "sourceLines": 62,
+    "sha256": "f81e92d6969476d8ae88dad690f08a5fbb09f09de77cedc7de7f0cfd432a64a6"
+  },
+  {
+    "path": "archive/raw_header/raw_header_runner.py",
+    "role": "historical reference",
+    "sourceLines": 311,
+    "sha256": "e0e982965696f27b006c6ad82bf62d18ea5a6a731d645f78f10978343f28c1e9"
+  },
+  {
+    "path": "archive/raw_header/test_raw_header_fallback.py",
+    "role": "historical reference",
+    "sourceLines": 364,
+    "sha256": "f7b9f08cc2a427c9ca81ab297e6bf7999786276b0376655acd5413e958418157"
+  },
+  {
+    "path": "archive/raw_header/test_raw_header_runner.py",
+    "role": "historical reference",
+    "sourceLines": 143,
+    "sha256": "6ca0a082ad2b3a533771abce77d3bc5ccc13ba156cbe01bc5fd03541e6d15909"
+  },
+  {
+    "path": "archive/raw_header/test_uncertain_evidence.py",
+    "role": "historical reference",
+    "sourceLines": 92,
+    "sha256": "845a1e78d19dd276f1984c7b0f06cf8a6b98e4ea17ab71c649c093d78fa6a1c9"
+  },
+  {
+    "path": "archive/raw_header/test_verify_final.py",
+    "role": "historical reference",
+    "sourceLines": 73,
+    "sha256": "fb69a59f49f1eb45badc098959081bc8d5c3eab670d56fdf4ddea0e9b2dc1c10"
+  },
+  {
+    "path": "archive/raw_header/test_verify_pilot.py",
+    "role": "historical reference",
+    "sourceLines": 33,
+    "sha256": "8f5990ae1f87c5286b98b95292961583bb036f03db02759f3f772f4fef76ff92"
+  },
+  {
+    "path": "archive/raw_header/verify_final.py",
+    "role": "historical reference",
+    "sourceLines": 364,
+    "sha256": "be5beff21a310eaf578b1fc418fb0e15a483e8db1ca420835afb9cf699509a76"
+  },
+  {
+    "path": "archive/raw_header/verify_pilot.py",
+    "role": "historical reference",
+    "sourceLines": 168,
+    "sha256": "c35cd2dfd4d1bb72d6617a89dce50d982c7f47f738da4d754fad2653d2cdffc6"
+  },
+  {
+    "path": "archive/rfc822/finish_when_done.py",
+    "role": "historical reference",
+    "sourceLines": 131,
+    "sha256": "89aae6da8906c50d6c1ec285b79a5c71c8ea0278d9562da8cd018f67935c8dbc"
+  },
+  {
+    "path": "archive/rfc822/preparation_repairs.py",
+    "role": "historical reference",
+    "sourceLines": 144,
+    "sha256": "d779cf47e7fa3e54f946592bb179b5c61d7b5c71062c5cfc0620d8a5570cbbdc"
+  },
+  {
+    "path": "archive/rfc822/runner.py",
+    "role": "historical reference",
+    "sourceLines": 167,
+    "sha256": "941805142653d004d49aaf0da3c1405195585e659de4602b1da72ab4c4fe5ee8"
+  },
+  {
+    "path": "archive/rfc822/test_preparation_repairs.py",
+    "role": "historical reference",
+    "sourceLines": 108,
+    "sha256": "2c631504a99e0225d9f1b8cc33a03b27582707492dccb4c4de1a8be833fcc521"
+  },
+  {
+    "path": "archive/rfc822/test_runner.py",
+    "role": "historical reference",
+    "sourceLines": 104,
+    "sha256": "cf5d73dc1ab1dc23934a398cf9196c85153c3463909adb15b55a2d17a840803d"
+  },
+  {
+    "path": "archive/rfc822/test_verify_final.py",
+    "role": "historical reference",
+    "sourceLines": 127,
+    "sha256": "56dbfb24c80df6ad5d97204382a6d1064385b1f2cf090375eb38ac410d714230"
+  },
+  {
+    "path": "archive/rfc822/test_verify_pilot.py",
+    "role": "historical reference",
+    "sourceLines": 57,
+    "sha256": "61b596e3f42cc82d60643ca668b286c94bab41118a080608f67a553455e08a7c"
+  },
+  {
+    "path": "archive/rfc822/verify_final.py",
+    "role": "historical reference",
+    "sourceLines": 366,
+    "sha256": "2f83d6676094fa42aed5665bcc0c13b83e5a4dbc711d48d437efbd567b7da809"
+  },
+  {
+    "path": "archive/rfc822/verify_pilot.py",
+    "role": "historical reference",
+    "sourceLines": 194,
+    "sha256": "3ba90381317ebf8e9bc7f9f049a160e63c2f5c924c795fe5a76eecfbfc0838d6"
+  },
+  {
+    "path": "archive/revisions/preparation-evidence_raw_header_runner-before-uncertain-evidence-fix-20260920T205235Z.py",
+    "role": "historical reference",
+    "sourceLines": 285,
+    "sha256": "7cd16b0666ae905d8bcadc95f5304543948b6627e189d844ff60bd3c53950842"
+  },
+  {
+    "path": "archive/revisions/preparation-evidence_raw_header_runner-before-raw-header-fallback-20260920T164754Z.py",
+    "role": "historical reference",
+    "sourceLines": 96,
+    "sha256": "0625afd6c71daaa8df6c3d05a5a6180a3ca7a78e73525f65c478c135c1330552"
+  },
+  {
+    "path": "archive/revisions/review-backups_2026-09-21-uncertain-timeout_raw_header_runner.py",
+    "role": "historical reference",
+    "sourceLines": 311,
+    "sha256": "e0e982965696f27b006c6ad82bf62d18ea5a6a731d645f78f10978343f28c1e9"
+  },
+  {
+    "path": "archive/revisions/review-backups_2026-09-21-sender-raw-check_verify_final.py",
+    "role": "historical reference",
+    "sourceLines": 312,
+    "sha256": "a434d8f30dea1bafe26f582669fde307b699444958c5f4c84baa6eacff866895"
+  }
+]

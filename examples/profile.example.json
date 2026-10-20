@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "migration_id": "example-inbox",
+  "source_root": "/absolute/source/Inbox",
+  "source_mailbox": "person@example.org",
+  "destination": "person@example.org",
+  "state_dir": "/absolute/runtime/state",
+  "oauth_client": "/absolute/runtime/oauth-client.json",
+  "label_prefix": "Migration/example",
+  "custom_label_policy": "none",
+  "root_folder": "Inbox",
+  "inbox_folders": ["Inbox"],
+  "progress_every": 250,
+  "google_rejection_policy": "stop",
+  "missing_message_id_policy": "stop",
+  "message_id_collision_policy": "stop_on_distinct_prepared_messages",
+  "token_store": {
+    "type": "keychain",
+    "service": "org.example.gmail-migration-tools"
+  }
+}
